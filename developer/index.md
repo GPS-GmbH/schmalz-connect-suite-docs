@@ -1,3 +1,6 @@
++++
+
++++
 # Developer Guide
 
 Overview of the Sicon.OS Platform
