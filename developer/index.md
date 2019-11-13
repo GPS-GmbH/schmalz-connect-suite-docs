@@ -1,3 +1,6 @@
++++
+
++++
 # Developer Guide
 
 Overview of the Sicon.OS Platform
@@ -9,27 +12,15 @@ With standardized protocols, you have access to the data sicon collects. Includi
 
 ### Rest API
 
-[Rest API](./restapi)
+With the interactive [Rest API](./restapi) documentation, you can quickly create customized visualization or logic.
 
 ### MQTT
 
+MQTT serves as event stream to react on sensor data change.
+
 ## Developing an App
 
-![](./app-workflow.jpg)
-
-
+![](/app-workflow.jpg)
 
 1. [Develop the application](./create-app.md)
 2. [Publish the application](./publish-app.md)
-
-
-
-
-Protocols
-    HTTP Rest API
-    MQTT/WebSocket
-
-App
-    Server
-    Service
-    Client
