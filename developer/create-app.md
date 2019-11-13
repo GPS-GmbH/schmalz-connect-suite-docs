@@ -1,3 +1,8 @@
++++
+lang = ""
+title = ""
+
++++
 # Writing an App
 
 Within the Sicon platform, you have different integration possibilities.
@@ -41,7 +46,6 @@ This can be used embed your dashboard
 * `?frameless` - hide the layout
 * `?path` - path to webserver in iframe, for e.g. initial load
 
-
 ### Client
 
 A client-app is a tightly integrated front-end application that has access to the in-built components and API functions. There is no need to write extra wrappers.
@@ -56,9 +60,7 @@ Your app has to be deployed to a docker registry of your choice.
 
 Your docker image should be named with the following convention:
 
-```
-<registry>/<vendor>/<app-name>
-```
+    <registry>/<vendor>/<app-name>
 
 Example: `myregistry.azurecr.com/gps/view`
 
