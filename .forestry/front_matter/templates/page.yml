@@ -23,4 +23,5 @@ fields:
       path: 
   label: Language
 pages:
+- user/user/plug.md
 - developer/create-app.md
