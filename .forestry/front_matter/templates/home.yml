@@ -1,0 +1,38 @@
+---
+label: Home
+hide_body: false
+fields:
+- type: boolean
+  name: home
+  label: home
+- type: text
+  name: heroText
+  label: heroText
+- type: text
+  name: tagline
+  label: tagline
+- type: text
+  name: actionText
+  label: actionText
+- type: text
+  name: actionLink
+  label: actionLink
+- type: field_group_list
+  name: features
+  label: features
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: details
+    label: details
+  - type: text
+    name: link
+    label: link
+  - type: text
+    name: linkText
+    label: linkText
+- type: text
+  name: footer
+  label: footer
