@@ -17,5 +17,7 @@ fields:
       path: 
   label: Language
 pages:
+- user/index.md
+- developer/publish-app.md
 - user/user/plug.md
 - developer/create-app.md
