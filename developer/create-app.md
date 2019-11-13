@@ -1,8 +1,3 @@
-+++
-lang = ""
-title = ""
-
-+++
 # Writing an App
 
 Within the Sicon platform, you have different integration possibilities.
