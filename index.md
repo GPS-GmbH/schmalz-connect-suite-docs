@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: Sicon.OS Documentation
+heroText: Sicon.OS Documentation 2
 heroBackground: "/wp3594087.jpg"
 tagline: Bring your own device, just plug
 actionText: Get Started →
