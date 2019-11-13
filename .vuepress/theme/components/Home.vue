@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="full-width overflow-hidden">
-            <img src="../../../home.jpg" alt="" class="hero-bg">
+            <img :src="$withBase(data.heroBackground)" alt="" class="hero-bg">
             <div class="home py-8" aria-labelledby="main-title">
                 <header class="hero">
                     <img v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt || 'hero'" />
