@@ -8,7 +8,7 @@ fields:
 - type: text
   name: heroText
   label: heroText
-- name: herobackground
+- name: heroBackground
   type: file
   config:
     maxSize: 250
