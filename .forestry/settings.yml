@@ -8,7 +8,8 @@ sections:
   path: ''
   label: Home
   create: all
-  match: "**/*"
+  match: "**/*.md"
+  exclude: ".*"
 upload_dir: ".vuepress/public"
 public_path: ''
 front_matter_path: ''
