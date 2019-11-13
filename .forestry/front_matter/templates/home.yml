@@ -5,6 +5,9 @@ fields:
 - type: boolean
   name: home
   label: home
+  showOnly:
+    value: true
+  hidden: true
 - type: text
   name: heroText
   label: heroText
