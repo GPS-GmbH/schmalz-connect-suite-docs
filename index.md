@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Sicon.OS Documentation
-heroBackground: "/"
+heroBackground: "/home.jpg"
 tagline: Bring your own device, just plug
 actionText: Get Started →
 actionLink: "/user/"
@@ -16,7 +16,6 @@ features:
     APIs and build applications
   link: "/developer/"
   linkText: More information
-herobackground: "/home.jpg"
 footer: ''
 
 ---
