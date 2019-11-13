@@ -1,6 +1,7 @@
 ---
 home: true
 heroText: Sicon.OS Documentation
+heroBackground: /
 tagline: Bring your own device, just plug
 actionText: Get Started →
 actionLink: /user/
