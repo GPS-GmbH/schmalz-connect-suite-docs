@@ -1,3 +1,8 @@
 ---
 label: Page
 hide_body: false
+fields: []
+pages:
+- developer/create-app.md
+- user/index.md
+- developer/publish-app.md
