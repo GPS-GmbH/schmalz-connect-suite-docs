@@ -30,14 +30,14 @@ module.exports = async () => ({
         ['meta', { prefix: ogprefix, property: 'og:title', content: title }],
         ['meta', { prefix: ogprefix, property: 'twitter:title', content: title }],
         ['meta', { prefix: ogprefix, property: 'og:type', content: 'article' }],
-        ['meta', { prefix: ogprefix, property: 'og:url', content: 'https://wireupyourfrontend.com' }],
+        ['meta', { prefix: ogprefix, property: 'og:url', content: 'https://docs.sicon.io' }],
         ['meta', { prefix: ogprefix, property: 'og:description', content: description }],
         [
             'meta',
             {
                 prefix: ogprefix,
                 property: 'og:image',
-                content: 'https://wireupyourfrontend.com/assets/logo.png',
+                content: 'https://docs.sicon.io/assets/logo.png',
             },
         ],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
