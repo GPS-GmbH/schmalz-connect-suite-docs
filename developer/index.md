@@ -9,7 +9,7 @@ With standardized protocols, you have access to the data sicon collects. Includi
 
 ### Rest API
 
-With the interactive [Rest API](./restapi) documentation, you can quickly create customized visualization or logic.
+With the interactive [Rest API](./restapi.md) documentation, you can quickly create customized visualization or logic.
 
 ### MQTT
 

@@ -9,7 +9,7 @@ With standardized protocols, you have access to the data sicon collects. Includi
 
 ### Rest API
 
-[Rest API](./restapi)
+[Rest API](./restapi.md)
 
 ### MQTT
 
