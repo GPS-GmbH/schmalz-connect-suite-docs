@@ -1,3 +1,6 @@
+---
+sidebar: false
+---
 # Rest API Documentation
 
 <RestAPI />
