@@ -6,4 +6,4 @@ With your credentials, you can login to the [app-store](https://app-store.exa.si
 
 ## Create a new vendor
 
-![](./app-store.png)
+![](/app-store.png)

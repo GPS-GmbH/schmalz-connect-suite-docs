@@ -21,4 +21,4 @@ footer: Copyright © 2019 GPS GmbH
 Mit dem Sicon Ecosystem, können Sie viele Anwendungen realisieren um Daten aus Sensoren zu verarbeiten, aggregieren und visualisieren.
 Auf der [Produkt Website](https://gps-sttutgart.de) erfahren Sie mehr über die Fähigkeiten von Sicon.OS.
 
-![](../access.jpg)
+![](/access.jpg)

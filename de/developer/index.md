@@ -15,7 +15,7 @@ With standardized protocols, you have access to the data sicon collects. Includi
 
 ## Developing an App
 
-![](./app-workflow.jpg)
+![](/app-workflow.jpg)
 
 
 
