@@ -52,6 +52,7 @@ module.exports = async () => ({
     },
     locales,
     themeConfig: {
+        sidebarDepth: 4,
         nav: [
             { text: 'Home', link: '/' },
             { text: 'User Guide', link: '/user/' },
@@ -62,6 +63,7 @@ module.exports = async () => ({
                 ['/developer/', 'Overview'],
                 '/developer/create-app',
                 '/developer/publish-app',
+                '/developer/deploy-app',
                 '/developer/restapi',
             ],
             '/user/': [

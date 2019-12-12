@@ -1,4 +1,4 @@
-# Writing an App
+# Creating an App
 
 Within the Sicon platform, you have different integration possibilities.
 All of the time, you will create a docker image that contains your environment.
@@ -21,12 +21,13 @@ Configuration
 
 ### Server
 
-Can provide a webserver on port `80` to show a website that for e.g. custom visualization.
-Our reverse proxy picks the app up and serves it under your [docker namespace](#docker-namespace).
+Can provide a webserver on port `80` to show a website for e.g. custom visualization.
+Our reverse proxy picks the app up and serves it with `/server/` and your [docker namespace](#docker-namespace).
+For example: `https://siconos.local/server/sicon/view`
 
-Your web view will be embedded as iframe.
+Additionally, your web view will be embedded as iframe with our navigation around on this address:
 
-E.g. `https://siconstratos.local/server/gps/view`
+Example: `https://siconos.local/apps/sicon/view`
 
 #### Limitations
 
@@ -41,11 +42,16 @@ This can be used embed your dashboard
 * `?frameless` - hide the layout
 * `?path` - path to webserver in iframe, for e.g. initial load
 
-### Client
+
+### Client - Work in Progress
 
 A client-app is a tightly integrated front-end application that has access to the in-built components and API functions. There is no need to write extra wrappers.
 
 E.g. `https://siconstratos.local/apps/gps/view`
+
+::: tip Work in Progress
+This integration mode is not available yet. We will update the documentation, once this is ready for developers.
+:::
 
 ## Build and Deployment
 
@@ -55,8 +61,10 @@ Your app has to be deployed to a docker registry of your choice.
 
 Your docker image should be named with the following convention:
 
-    <registry>/<vendor>/<app-name>
+`<registry>/<vendor>/<app-name>`
 
 Example: `myregistry.azurecr.com/gps/view`
 
-This transla
+Throughout the App-Store, `vendor` and `app-name` has to be unique.
+This will be checked when [registering the app in the app-store](./publish-app.md).
+
