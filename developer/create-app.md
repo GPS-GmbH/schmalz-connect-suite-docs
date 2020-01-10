@@ -85,8 +85,8 @@ When your app is created and registered through the sicon platform, these enviro
     ]
 }
 ```
-
-within the sicon-network, you have access to a bridged network wherein the APIs are available from.
+You can [change these settings](./publish-app#app-json-schema) to be extended or replaced if needed, when editing the app in the app-store.
+Within the sicon-network, you have access to a bridged network wherein the APIs are available from.
 
 While developing locally on e.g. a laptop, it is recommended to always use these environment variables for connecting to Sicon OS APIs within the same network.
 **Example with a docker-compose file:**
