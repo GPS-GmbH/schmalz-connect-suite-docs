@@ -1,9 +1,9 @@
 # Creating an App
 
-Within the Sicon platform, you have different integration possibilities.
-All of the time, you will create a docker image that contains your environment.
+All apps are docker images stored on your registry of choice.
+The app-store just collects meta data, how to install them.
 
-There are several levels of how tightly integrated your app is. These can be combined as defined below.
+When building for the Sicon platform, depending on the capabilities you want to add, there are different levels of integration available.
 
 ## Types of Integration
 
@@ -68,3 +68,37 @@ Example: `myregistry.azurecr.com/gps/view`
 Throughout the App-Store, `vendor` and `app-name` has to be unique.
 This will be checked when [registering the app in the app-store](./publish-app.md).
 
+### Default Run Settings
+
+When your app is created and registered through the sicon platform, these environment variables and networks are automatically applied to the container.
+
+``` json
+{
+    "NetworkingConfig": {
+        "EndpointsConfig": {
+            "docker_sicon-network": {}
+        }
+    },
+    "Env": [
+        "APIBASEURL=https://sicon_backend/api/v1",
+        "MQTTHOST=sicon_mqtt",
+    ]
+}
+```
+
+within the sicon-network, you have access to a bridged network wherein the APIs are available from.
+
+While developing locally on e.g. a laptop, it is recommended to always use these environment variables for connecting to Sicon OS APIs within the same network.
+**Example with a docker-compose file:**
+``` yaml
+version: '3'
+
+services:
+  client:
+    container_name: testapp
+    restart: always
+    image: your-registry.azure.io/somecompany/testapp
+    environment:
+      APIBASEURL: https://siconos.local/api/v1
+      MQTTHOST: siconos.local
+```
