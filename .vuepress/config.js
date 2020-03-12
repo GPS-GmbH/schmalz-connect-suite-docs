@@ -1,5 +1,6 @@
 // Theme API.
 const tailwindcss = require('tailwindcss')
+const glob = require('glob')
 // const getSidebar = require('./sidebar')
 
 const title = 'Sicon.OS Documentation'
@@ -7,6 +8,19 @@ const description = 'Documentation for users and developers'
 const ogprefix = 'og: http://ogp.me/ns#'
 const color = '#1c9a9a'
 
+const getChildren = (parentPath) => {
+    return glob
+      .sync(parentPath + '/*.md')
+      .map(path => {
+        // remove "parentPath" and ".md"
+        // remove README
+        if (path.endsWith('README')) {
+          path = path.slice(0, -6)
+        }
+        return `/${path}`.replace('.md', '').replace('index', '')
+      })
+      .sort()
+  }
 const locales = {
     '/': {
         lang: 'English',
@@ -22,7 +36,7 @@ const locales = {
 // const sidebar = require('./sidebar')(path.relative(__dirname, '../'), locales)
 // console.log('sidebar', sidebar)
 
-module.exports = async () => ({
+const config = async () => ({
     title,
     head: [
         ['link', { rel: 'icon', href: `/assets/favicon.ico` }],
@@ -60,20 +74,54 @@ module.exports = async () => ({
         ],
         sidebar: {
             '/developer/': [
-                ['/developer/', 'Overview'],
-                '/developer/create-app',
-                '/developer/publish-app',
-                '/developer/deploy-app',
-                '/developer/restapi',
+                {
+                    collapsable: false,
+                    title: '🚀 Developer Guide',
+                    children: getChildren('developer'),
+                },
+                {
+                    collapsable: false,
+                    title: '📦 App Development',
+                    children: getChildren('developer/apps'),
+                },
             ],
             '/user/': [
-                ['/user/', 'Overview'],
-                '/user/config',
-                '/user/setup',
-            ]
-        }
+                {
+                    collapsable: false,
+                    title: 'User Guide',
+                    children: getChildren('user'),
+                },
+                {
+                    collapsable: false,
+                    title: '⚙️️ Settings',
+                    children: getChildren('user/settings'),
+                },
+                {
+                    collapsable: false,
+                    title: '🔌 Assets',
+                    children: getChildren('user/assets'),
+                },
+            ],
+        },
+        // {
+        //     '/developer/': [
+        //         ['/developer/', 'Overview'],
+        //         '/developer/create-app',
+        //         '/developer/publish-app',
+        //         '/developer/deploy-app',
+        //         '/developer/restapi',
+        //     ],
+        //     '/user/': [
+        //         ['/user/', 'Overview'],
+        //         '/user/config',
+        //         '/user/setup',
+        //     ]
+        // }
         // sidebar: await getSidebar({
         //     target: `${__dirname}/../`
         // })
     },
 })
+
+module.exports = config
+config().then(a => console.log(JSON.stringify(a.themeConfig.sidebar, null, 4)))

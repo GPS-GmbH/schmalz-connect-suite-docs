@@ -1,6 +1,3 @@
----
-
----
 # Certificates
 
 Certificates are automatically created using the hostname.
@@ -32,7 +29,7 @@ Certificates are generated using these settings.
 
 **Sign Certificate:**
 
-    openssl x509 
-    	-days 707 
+    openssl x509
+        -days 707
         -sha256
         -extensions 'v3_req'

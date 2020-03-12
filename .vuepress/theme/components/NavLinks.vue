@@ -116,6 +116,7 @@ export default {
 </script>
 
 <style lang="stylus">
+$accentColor = #1c9a9a
 .nav-links
   display inline-block
   a
