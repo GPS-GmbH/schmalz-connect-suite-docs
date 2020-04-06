@@ -13,5 +13,4 @@ Johannes-Schmalz-Str.1
 Deutschland
 
 T: +49 7443 2403-0  
-F: +49 7443 2403-259  
-[schmalz@schmalz.de](javascript:linkTo_UnCryptMailto('nbjmup+tdinbmaAtdinbma/ef');)
+F: +49 7443 2403-259
