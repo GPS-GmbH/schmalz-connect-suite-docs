@@ -3,7 +3,7 @@ const tailwindcss = require('tailwindcss')
 const glob = require('glob')
 // const getSidebar = require('./sidebar')
 
-const title = 'Schmalz Connect Suite Dokuentation'
+const title = 'Schmalz Control Suite Dokuentation'
 const description = 'Documentation for users and developers'
 const ogprefix = 'og: http://ogp.me/ns#'
 const color = '#0050A0'
@@ -24,12 +24,12 @@ const getChildren = (parentPath) => {
 const locales = {
     '/': {
         lang: 'English',
-        title: 'Schmalz Connect Suite Documentation',
+        title: 'Schmalz Control Suite Documentation',
         description: 'Documentation for controlling devices',
     },
     '/de/': {
         lang: 'Deutsch',
-        title: 'Schmalz Connect Suite Dokumentation',
+        title: 'Schmalz Control Suite Dokumentation',
         description: 'Dokumentation zu Sicon APPs, PLUGs und OS',
     },
 }

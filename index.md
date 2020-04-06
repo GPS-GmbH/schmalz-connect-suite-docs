@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: Schmalz Connect Suite
+heroText: Schmalz Control Suite
 heroBackground: "/home.jpg"
 tagline: Bring your own device, just plug
 actionText: Get Started →
