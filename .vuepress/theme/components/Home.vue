@@ -13,7 +13,7 @@
                     </p>
 
                     <p class="action" v-if="data.actionText && data.actionLink">
-                        <NavLink class="action-button" :item="actionLink" />
+                        <NavLink class="button" :item="actionLink" />
                     </p>
                 </header>
 
@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style lang="stylus">
-$accentColor = #1c9a9a
+$accentColor = #0050A0
 .full-width
     background-color black
 .home

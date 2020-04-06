@@ -118,12 +118,12 @@ export default {
     left 0.5em
   &.clickable
     &.active
-      $accentColor = #1c9a9a
+      $accentColor = #0050A0
       font-weight 600
-      color #1c9a9a
-      border-left-color #1c9a9a
+      color #0050A0
+      border-left-color #0050A0
     &:hover
-      color #1c9a9a
+      color #0050A0
 
 .sidebar-group-items
   transition height .1s ease-out

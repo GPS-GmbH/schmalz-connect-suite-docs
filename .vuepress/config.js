@@ -3,10 +3,10 @@ const tailwindcss = require('tailwindcss')
 const glob = require('glob')
 // const getSidebar = require('./sidebar')
 
-const title = 'Sicon.OS Documentation'
+const title = 'Schmalz Connect Suite Dokuentation'
 const description = 'Documentation for users and developers'
 const ogprefix = 'og: http://ogp.me/ns#'
-const color = '#1c9a9a'
+const color = '#0050A0'
 
 const getChildren = (parentPath) => {
     return glob
@@ -24,12 +24,12 @@ const getChildren = (parentPath) => {
 const locales = {
     '/': {
         lang: 'English',
-        title: 'Sicon.OS Documentation',
-        description: 'Vue-powered Static Site Generator',
+        title: 'Schmalz Connect Suite Documentation',
+        description: 'Documentation for controlling devices',
     },
     '/de/': {
         lang: 'Deutsch',
-        title: 'Sicon.OS Dokumentation',
+        title: 'Schmalz Connect Suite Dokumentation',
         description: 'Dokumentation zu Sicon APPs, PLUGs und OS',
     },
 }
@@ -40,6 +40,7 @@ const config = async () => ({
     title,
     head: [
         ['link', { rel: 'icon', href: `/assets/favicon.ico` }],
+        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap' }]
         ['meta', { name: 'theme-color', content: color }],
         ['meta', { prefix: ogprefix, property: 'og:title', content: title }],
         ['meta', { prefix: ogprefix, property: 'twitter:title', content: title }],
