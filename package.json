@@ -1,7 +1,7 @@
 {
   "name": "docs",
   "version": "1.0.0",
-  "description": "Schmalz Control Suite",
+  "description": "Schmalz Connect Suite",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev",
