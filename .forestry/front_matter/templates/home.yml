@@ -45,4 +45,5 @@ fields:
   name: footer
   label: footer
 pages:
+- de/index.md
 - index.md

@@ -14,6 +14,6 @@ features:
   link: developer/
   linkText: Mehr Information
 footer: Copyright © 2020 J. Schmalz GmbH
+heroBackground: "/home.jpg"
 
 ---
-![](/home.jpg)
