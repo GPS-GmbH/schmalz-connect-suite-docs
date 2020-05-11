@@ -2,7 +2,7 @@
 home: true
 heroText: Schmalz Connect Suite
 tagline: Bedienungsanleitung
-actionText: Loslegen →
+actionText: ''
 actionLink: "/user/"
 features:
 - title: User Guide
@@ -16,3 +16,4 @@ features:
 footer: Copyright © 2020 J. Schmalz GmbH
 
 ---
+![](/home.jpg)
