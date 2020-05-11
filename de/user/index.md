@@ -34,3 +34,15 @@ Die IP Adresse ist unter den Netzwerkteilnehmern des DHCP Servers aufgelistet.
 Optional kann die IP Adresse auch vom Netzwerkadministrator bereitgestellt werden.
 
 Um die Verbindung zur SCS herzustellen geben Sie die vom DHCP Server generierte IP Adresse in ihren Webbrowser sein.
+
+* **Beschreibung der IBN über den OT Netzwerkanschluss auf der SCS**
+
+1. **Netzwerkaufbau**
+
+![](/Bild4.png)
+
+Stellen sie sicher, dass sie den oben beschriebenen Netzwerkaufbau hergestellt haben.
+
+Stellen Sie die die Netzwerkkonfiguration ihres PCs eine feste Ip Adresse. Die IP Adresse muss im Bereich 192.168.0.X(alles außer 10) sein.
+
+Die IP Adresse der SCS ist auf der OT Seite fest auf 192.168.0.10 eingestellt
