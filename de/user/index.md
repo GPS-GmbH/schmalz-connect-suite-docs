@@ -1,7 +1,7 @@
 +++
 
 +++
-# User guide
+### **Benutzerhandbuch**
 
 **Beschreibung der IBN über den IT Netzwerkanschluss auf der SCS**
 
@@ -17,7 +17,7 @@ Stellen Sie die die Netzwerkkonfiguration ihres PCs auf DHCP (Netzwerkkonfigurat
 
 ![](/Bild3.png)
 
-2. **Verbindung zur SCS herstellen - Hostname**
+1. **Verbindung zur SCS herstellen - Hostname**
 
 Die SCS ist unter folgender Adresse zu erreichen:
 
@@ -25,7 +25,7 @@ Die SCS ist unter folgender Adresse zu erreichen:
 
 Geben Sie hierfür die entsprechende Zeile in ihren Webbrowser ein.
 
-3. **Verbindung zur SCS herstellen – IP Adresse**
+1. **Verbindung zur SCS herstellen – IP Adresse**
 
 Sie können eine Verbindung zur SCS über die vom DHCP Server zugewiesene IP Adresse herstellen.
 
@@ -49,7 +49,7 @@ Die IP Adresse der SCS ist auf der OT Seite fest auf 192.168.0.10 eingestellt.
 
 ![](/Bild5.png)
 
-2. **Verbindung zur SCS herstellen – IP Adresse**
+1. **Verbindung zur SCS herstellen – IP Adresse**
 
 Sie können eine Verbindung zur SCS über die IP Adresse herstellen.
 
