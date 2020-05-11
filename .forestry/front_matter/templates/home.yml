@@ -14,7 +14,7 @@ fields:
 - name: heroBackground
   type: file
   config:
-    maxSize: 250
+    maxSize: 64
   label: heroBackground
 - type: text
   name: tagline
