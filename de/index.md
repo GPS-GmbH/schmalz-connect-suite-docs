@@ -16,3 +16,4 @@ features:
 footer: Copyright © 2020 J. Schmalz GmbH
 
 ---
+![](/Bild1.png)
