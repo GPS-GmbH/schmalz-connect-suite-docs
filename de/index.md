@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Schmalz Connect Suite
-tagline: ''
+tagline: Bedienungsanleitung
 actionText: Loslegen →
 actionLink: "/user/"
 features:
