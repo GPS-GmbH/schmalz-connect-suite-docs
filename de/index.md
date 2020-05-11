@@ -1,9 +1,9 @@
 ---
 home: true
-heroText: Sicon.OS Dokumentation
-tagline: Bring your own device, just plug
+heroText: Schmalz Connect Suite Dokumentation
+tagline: ''
 actionText: Loslegen →
-actionLink: /user/
+actionLink: "/user/"
 features:
 - title: User Guide
   details: Geräte aufesetzen und Daten anzeigen lassen
@@ -13,12 +13,6 @@ features:
   details: Greife auf Daten von Sensoren zu und baue eigene Logik ein
   link: developer/
   linkText: Mehr Information
-footer: Copyright © 2019 GPS GmbH
+footer: Copyright © 2020 J. Schmalz GmbH
+
 ---
-
-# Ein System. Viele Anwendungen.
-
-Mit dem Sicon Ecosystem, können Sie viele Anwendungen realisieren um Daten aus Sensoren zu verarbeiten, aggregieren und visualisieren.
-Auf der [Produkt Website](https://gps-sttutgart.de) erfahren Sie mehr über die Fähigkeiten von Sicon.OS.
-
-![](/access.jpg)
