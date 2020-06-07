@@ -59,12 +59,12 @@ Um die Verbindung zur SCS herzustellen geben Sie die IP Adresse in ihren Webbrow
 
 **Aufbau der Schmalz Connect Suite**
 
-1. IT-Anschluss
-2. Systemmanagement
-3. OT-Anschluss
-4. Ein/Aus-Button
-5. Spannungsversorgung
-6. USB-Anschlüsse
+(1) IT-Anschluss  
+(2) Systemmanagement  
+(3) OT-Anschluss  
+(4) Ein/Aus-Button  
+(5) Spannungsversorgung  
+(6) USB-Anschlüsse
 
 ![](/aufbau-scs.png)
 
