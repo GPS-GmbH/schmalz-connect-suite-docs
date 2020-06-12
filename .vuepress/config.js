@@ -3,7 +3,7 @@ const tailwindcss = require('tailwindcss')
 const glob = require('glob')
 // const getSidebar = require('./sidebar')
 
-const title = 'Schmalz Connect Suite Dokuentation'
+const title = 'Schmalz Connect:API'
 const description = 'Documentation for users and developers'
 const ogprefix = 'og: http://ogp.me/ns#'
 const color = '#0050A0'
@@ -71,7 +71,7 @@ const config = async () => ({
         nav: [
             { text: 'Home', link: '/' },
             { text: 'User Guide', link: '/user/' },
-            { text: 'Developer Guide', link: '/developer/' },
+            { text: 'Connect:API', link: '/developer/' },
         ],
         sidebar: {
             '/developer/': [
