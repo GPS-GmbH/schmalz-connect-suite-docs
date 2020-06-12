@@ -1,6 +1,6 @@
 {
     "info": {
-        "title": "SICON Gateway REST API",
+        "title": "Connect Suite API",
         "version": "1.0.0",
         "description": "This API provides access to the gateway database and its adapters, devices and spawned errors."
     },
