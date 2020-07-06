@@ -24,12 +24,12 @@ const getChildren = (parentPath) => {
 const locales = {
     '/': {
         lang: 'English',
-        title: 'Schmalz Connect Suite Documentation',
+        title: 'Schmalz Connect:API',
         description: 'Documentation for controlling devices',
     },
     '/de/': {
         lang: 'Deutsch',
-        title: 'Schmalz Connect Suite Dokumentation',
+        title: 'Schmalz Connect:API',
         description: 'Dokumentation zu Sicon APPs, PLUGs und OS',
     },
 }
