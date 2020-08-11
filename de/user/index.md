@@ -91,44 +91,41 @@ Um die Verbindung zur SCS herzustellen geben Sie die IP Adresse in ihren Webbrow
 
 ## Einrichten des Maschinennetzwerks und Konfiguration
 
-1.) Durch anklicken des Symbols "Devices" wird die Devices Seite angezeigt.
-2.) Geräte über den "PreRegistered Devices " button,
-3.) oder über den "New Device from Catalog " button
+![](/bild1-1.png)
+
+1\.) Durch anklicken des Symbols "Devices" wird die Devices Seite angezeigt.
+2\.) Geräte über den "PreRegistered Devices " button,
+3\.) oder über den "New Device from Catalog " button
 anlegen bzw. registrieren.
-
-
 
 Bei Auswahl des PreRegistered Devices button erscheint folgendes Fenster.
 
+![](/bild2-1.png)
 
+4\.) Durch klicken auf den Button "Search New Devices" startet ein Netzwerkscan über das gesamte OT Maschinennetzwerk.
 
-4.) Durch klicken auf den Button "Search New Devices" startet ein Netzwerkscan über das gesamte OT Maschinennetzwerk.
+![](/bild3-1.png)
 
-
-5.) Alle gefundenen Geräte gesamt oder einzeln auf der SCS registrieren.
-
-
+5\.) Alle gefundenen Geräte gesamt oder einzeln auf der SCS registrieren.
 
 Bei Auswahl des New Device from Catalog button erscheint folgendes Fenster
 
-
+![](/bild6.png)
 
 Aus dem angezeigten Auswahlkatalog das gewünschte Device auswählen.
 
+![](/bild7.png)
 
+1\.) Geräte IP Adresse direkt eingeben.
+2\.) Bevor das Gerät registriert wird können noch gerätespezifische Angaben gemacht werden. z.B. Anlagen/Ortskennzeichen & BMK.
+3\.) Registrierungsprozesses starten.
 
+Unabhängig von der gewählten Art der Eingabe (Katalog oder Scan) ist das Endergebnis das selbe. Die nachfolgende Abbildung zeigt die Anzeige nach dem Registrierungsprozess. Es werden alle Geräte inkl. der Parameter gezeigt.
 
-1.) Geräte IP Adresse direkt eingeben.
-2.) Bevor das Gerät registriert wird können noch gerätespezifische Angaben gemacht werden. z.B. Anlagen/Ortskennzeichen & BMK.
-3.) Registrierungsprozesses starten.
-
-
-
-Unabhängig von der gewählten Art der Eingabe (Katalog oder Scan) ist das Endergebnis das selbe. Die nachfolgende
-Abbildung zeigt die Anzeige nach dem Registrierungsprozess. Es werden alle Geräte inkl. der Parameter
-gezeigt.
-
-
+![](/bild4-1.png)
 
 ## Funktionsbeschreibung Monitor
+
 Die Vergabe von Anlagen Orts Kennzeichnung & Betriebsmittelkennzeichnung (AOK&BMK) werden über den Bereich "Monitor" angezeigt.
+
+![](/bild5-1.png)
