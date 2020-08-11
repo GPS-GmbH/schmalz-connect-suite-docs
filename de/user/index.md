@@ -88,3 +88,42 @@ Sie können eine Verbindung zur SCS über die IP Adresse herstellen.
 Die IP Adresse ist 192.168.0.10
 
 Um die Verbindung zur SCS herzustellen geben Sie die IP Adresse in ihren Webbrowser sein.
+
+## Einrichten des Maschinennetzwerks und Konfiguration
+
+1.) Durch anklicken des Symbols "Devices" wird die Devices Seite angezeigt.
+2.) Geräte über den "PreRegistered Devices " button,
+3.) oder über den "New Device from Catalog " button
+anlegen bzw. registrieren.
+
+
+
+Bei Auswahl des PreRegistered Devices button erscheint folgendes Fenster.
+
+
+
+4.) Durch klicken auf den Button "Search New Devices" startet ein Netzwerkscan über das gesamte OT Maschinennetzwerk.
+
+
+5.) Alle gefundenen Geräte gesamt oder einzeln auf der SCS registrieren.
+
+
+
+Bei Auswahl des New Device from Catalog button erscheint folgendes Fenster
+
+
+
+Aus dem angezeigten Auswahlkatalog das gewünschte Device auswählen.
+
+
+
+
+1.) Geräte IP Adresse direkt eingeben.
+2.) Bevor das Gerät registriert wird können noch gerätespezifische Angaben gemacht werden. z.B. Anlagen/Ortskennzeichen & BMK.
+3.) Registrierungsprozesses starten.
+
+
+
+Unabhängig von der gewählten Art der Eingabe (Katalog oder Scan) ist das Endergebnis das selbe. Die nachfolgende
+Abbildung zeigt die Anzeige nach dem Registrierungsprozess. Es werden alle Geräte inkl. der Parameter
+gezeigt.
