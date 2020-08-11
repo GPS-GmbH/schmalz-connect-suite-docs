@@ -1,11 +1,11 @@
 +++
 
 +++
-### **![](/aufbau-scs.png)Benutzerhandbuch**
+**Benutzerhandbuch**
 
-**Beschreibung der IBN über den IT Netzwerkanschluss auf der SCS**
+## Beschreibung der IBN über den IT Netzwerkanschluss auf der SCS
 
-1. **Netzwerkaufbau**
+### Netzwerkaufbau**
 
 ![](/Bild2.png)
 
@@ -17,7 +17,7 @@ Stellen Sie die die Netzwerkkonfiguration ihres PCs auf DHCP (Netzwerkkonfigurat
 
 ![](/Bild3.png)
 
-1. **Verbindung zur SCS herstellen - Hostname**
+### Verbindung zur SCS herstellen - Hostname
 
 Die SCS ist unter folgender Adresse zu erreichen:
 
@@ -25,7 +25,7 @@ Die SCS ist unter folgender Adresse zu erreichen:
 
 Geben Sie hierfür die entsprechende Zeile in ihren Webbrowser ein.
 
-1. **Verbindung zur SCS herstellen – IP Adresse**
+### Verbindung zur SCS herstellen – IP Adresse
 
 Sie können eine Verbindung zur SCS über die vom DHCP Server zugewiesene IP Adresse herstellen.
 
@@ -35,9 +35,9 @@ Optional kann die IP Adresse auch vom Netzwerkadministrator bereitgestellt werde
 
 Um die Verbindung zur SCS herzustellen geben Sie die vom DHCP Server generierte IP Adresse in ihren Webbrowser sein.
 
-* **Beschreibung der IBN über den OT Netzwerkanschluss auf der SCS**
+## Beschreibung der IBN über den OT Netzwerkanschluss auf der SCS
 
-1. **Netzwerkaufbau**
+### Netzwerkaufbau
 
 ![](/Bild4.png)
 
@@ -49,7 +49,7 @@ Die IP Adresse der SCS ist auf der OT Seite fest auf 192.168.0.10 eingestellt.
 
 ![](/Bild5.png)
 
-1. **Verbindung zur SCS herstellen – IP Adresse**
+### Verbindung zur SCS herstellen – IP Adresse
 
 Sie können eine Verbindung zur SCS über die IP Adresse herstellen.
 
@@ -57,7 +57,7 @@ Die IP Adresse ist 192.168.0.10
 
 Um die Verbindung zur SCS herzustellen geben Sie die IP Adresse in ihren Webbrowser sein.
 
-**Aufbau der Schmalz Connect Suite**
+## Aufbau der Schmalz Connect Suite
 
 (1) IT-Anschluss  
 (2) Systemmanagement  
@@ -80,7 +80,7 @@ Um die Verbindung zur SCS herzustellen geben Sie die IP Adresse in ihren Webbrow
 1. Die SCS einschalten
 2. Die SCS mit dem PC verbinden (Netzwerkkabel am Systemmanagement-Anschluss der SCS)
 3. Netzwerkverbindungen auf dem PC öffnen
-4.  Netzwerkeigenschaften der aktiven Netzwerkverbindung öffnen
+4. Netzwerkeigenschaften der aktiven Netzwerkverbindung öffnen
 5. Das Internetprotokoll IPv4 auf eine feste IP-Adresse stellen
 6. Im Browser die IP-Adresse 192.168.0.10 eingeben und sich mit der SCS verbinden
 
@@ -90,6 +90,6 @@ Um die Verbindung zur SCS herzustellen geben Sie die IP Adresse in ihren Webbrow
 2. Die SCS mit dem IT-Netzwerk verbinden (Netzwerkkabel am IT-Anschluss der SCS)
 3. Der PC oder das Handy/Tablet mit dem IT Netzwerk (Via Kabel oder W-Lan) verbinden
 4. Netzwerkverbindungen auf dem PC öffnen
-5.  Netzwerkeigenschaften der aktiven Netzwerkverbindung öffnen
+5. Netzwerkeigenschaften der aktiven Netzwerkverbindung öffnen
 6. Das Internetprotokoll IPv4 auf „IP-Adresse automatisch beziehen“ stellen
 7. Im Browser die Adresse [https://schmalzconnectsuite.local/](https://schmalzconnectsuite.local/ "https://schmalzconnectsuite.local/") eingeben und sich mit der SCS verbinden
