@@ -1,7 +1,7 @@
 +++
 
 +++
-**Benutzerhandbuch**
+# Benutzerhandbuch
 
 ## Beschreibung der IBN über den IT Netzwerkanschluss auf der SCS
 
@@ -72,7 +72,7 @@ Um die Verbindung zur SCS herzustellen geben Sie die IP Adresse in ihren Webbrow
 
 1. Die SCS einschalten und auf Werkseinstellung setzen
 2. Die SCS mit dem Maschinennetzwerk verbinden (Netzwerkkabel am OT-Anschluss der SCS)
-3. Die IP-Adresse der OT-Seite der SCS auf eine freie IP-Adresse im Maschinennetzwerk einstellen 
+3. Die IP-Adresse der OT-Seite der SCS auf eine freie IP-Adresse im Maschinennetzwerk einstellen
 4. Einstellung speichern
 
 **Schritte für die Verbindung zur SCS OT-Seite**
