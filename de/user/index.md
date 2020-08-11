@@ -3,7 +3,39 @@
 +++
 # Benutzerhandbuch
 
-## Beschreibung der IBN über den IT Netzwerkanschluss auf der SCS
+## Typenschild
+
+Das Typenschild ist fest mit dem SCS verbunden und muss immer gut lesbar sein.
+Es enthält folgende Daten:
+• Artikelverkaufsbezeichnung / Type
+• Artikelnummer
+• Herstelldatum
+• Hardware-Version
+• Seriennummer
+• UID-Nummer
+• QR-Code
+• CE-Kennzeichnung
+• FCC-Kennzeichnung
+• Hostname
+
+## Aufbau der Schmalz Connect Suite
+
+(1) IT-Anschluss  
+(2) Systemmanagement  
+(3) OT-Anschluss  
+(4) Ein/Aus-Button  
+(5) Spannungsversorgung  
+(6) USB-Anschlüsse
+
+![](/aufbau-scs.png)
+
+## Inbetriebnahme
+
+Die Verbindung zur SCS kann über zwei Varianten hergestellt werden:
+• Variante 1: über den IT Netzwerkanschluss der SCS
+• Variante 2: über den OT Netzwerkanschluss der SCS
+
+## Inbetriebnahme über den IT Netzwerkanschluss der SCS
 
 ### Netzwerkaufbau**
 
@@ -17,11 +49,11 @@ Stellen Sie die die Netzwerkkonfiguration ihres PCs auf DHCP (Netzwerkkonfigurat
 
 ![](/Bild3.png)
 
-### Verbindung zur SCS herstellen - Hostname
+Die SCS ist unter folgender Hostname-Adresse zu erreichen:
 
-Die SCS ist unter folgender Adresse zu erreichen:
+http://scs-xxxx.local/
 
-[https://schmalzconnectsuite.local/](https://schmalzconnectsuite.local/ "https://schmalzconnectsuite.local/")
+Der Hostname ist auf dem Typenschild aufgedruckt.
 
 Geben Sie hierfür die entsprechende Zeile in ihren Webbrowser ein.
 
@@ -35,7 +67,7 @@ Optional kann die IP Adresse auch vom Netzwerkadministrator bereitgestellt werde
 
 Um die Verbindung zur SCS herzustellen geben Sie die vom DHCP Server generierte IP Adresse in ihren Webbrowser sein.
 
-## Beschreibung der IBN über den OT Netzwerkanschluss auf der SCS
+## Inbetriebnahme über den OT Netzwerkanschluss der SCS
 
 ### Netzwerkaufbau
 
@@ -57,39 +89,3 @@ Die IP Adresse ist 192.168.0.10
 
 Um die Verbindung zur SCS herzustellen geben Sie die IP Adresse in ihren Webbrowser sein.
 
-## Aufbau der Schmalz Connect Suite
-
-(1) IT-Anschluss  
-(2) Systemmanagement  
-(3) OT-Anschluss  
-(4) Ein/Aus-Button  
-(5) Spannungsversorgung  
-(6) USB-Anschlüsse
-
-![](/aufbau-scs.png)
-
-**Schritte für die Einbindung der SCS ins Maschinennetzwerk**
-
-1. Die SCS einschalten und auf Werkseinstellung setzen
-2. Die SCS mit dem Maschinennetzwerk verbinden (Netzwerkkabel am OT-Anschluss der SCS)
-3. Die IP-Adresse der OT-Seite der SCS auf eine freie IP-Adresse im Maschinennetzwerk einstellen
-4. Einstellung speichern
-
-**Schritte für die Verbindung zur SCS OT-Seite**
-
-1. Die SCS einschalten
-2. Die SCS mit dem PC verbinden (Netzwerkkabel am Systemmanagement-Anschluss der SCS)
-3. Netzwerkverbindungen auf dem PC öffnen
-4. Netzwerkeigenschaften der aktiven Netzwerkverbindung öffnen
-5. Das Internetprotokoll IPv4 auf eine feste IP-Adresse stellen
-6. Im Browser die IP-Adresse 192.168.0.10 eingeben und sich mit der SCS verbinden
-
-**Schritte für die Verbindung zur SCS IT-Seite**
-
-1. Die SCS einschalten
-2. Die SCS mit dem IT-Netzwerk verbinden (Netzwerkkabel am IT-Anschluss der SCS)
-3. Der PC oder das Handy/Tablet mit dem IT Netzwerk (Via Kabel oder W-Lan) verbinden
-4. Netzwerkverbindungen auf dem PC öffnen
-5. Netzwerkeigenschaften der aktiven Netzwerkverbindung öffnen
-6. Das Internetprotokoll IPv4 auf „IP-Adresse automatisch beziehen“ stellen
-7. Im Browser die Adresse [https://schmalzconnectsuite.local/](https://schmalzconnectsuite.local/ "https://schmalzconnectsuite.local/") eingeben und sich mit der SCS verbinden
