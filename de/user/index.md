@@ -127,3 +127,8 @@ Aus dem angezeigten Auswahlkatalog das gewünschte Device auswählen.
 Unabhängig von der gewählten Art der Eingabe (Katalog oder Scan) ist das Endergebnis das selbe. Die nachfolgende
 Abbildung zeigt die Anzeige nach dem Registrierungsprozess. Es werden alle Geräte inkl. der Parameter
 gezeigt.
+
+
+
+## Funktionsbeschreibung Monitor
+Die Vergabe von Anlagen Orts Kennzeichnung & Betriebsmittelkennzeichnung (AOK&BMK) werden über den Bereich "Monitor" angezeigt.
