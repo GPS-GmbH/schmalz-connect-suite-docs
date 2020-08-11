@@ -37,7 +37,7 @@ Die Verbindung zur SCS kann über zwei Varianten hergestellt werden:
 
 ## Inbetriebnahme über den IT Netzwerkanschluss der SCS
 
-### Netzwerkaufbau**
+### Netzwerkaufbau
 
 ![](/Bild2.png)
 
@@ -88,4 +88,3 @@ Sie können eine Verbindung zur SCS über die IP Adresse herstellen.
 Die IP Adresse ist 192.168.0.10
 
 Um die Verbindung zur SCS herzustellen geben Sie die IP Adresse in ihren Webbrowser sein.
-
