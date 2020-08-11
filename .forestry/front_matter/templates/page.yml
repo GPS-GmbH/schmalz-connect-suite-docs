@@ -4,7 +4,6 @@ hide_body: false
 fields: []
 pages:
 - consulting.md
-- de/user/Test/test_page.md
 - developer/index.md
 - developer/mqtt-api-documentation.md
 - user/index.md
