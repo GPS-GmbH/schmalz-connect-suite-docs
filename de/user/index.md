@@ -1,6 +1,3 @@
-+++
-
-+++
 # Benutzerhandbuch
 
 ## Typenschild
@@ -20,11 +17,11 @@ Es enthält folgende Daten:
 
 ## Aufbau der Schmalz Connect Suite
 
-(1) IT-Anschluss  
-(2) Systemmanagement  
-(3) OT-Anschluss  
-(4) Ein/Aus-Button  
-(5) Spannungsversorgung  
+(1) IT-Anschluss
+(2) Systemmanagement
+(3) OT-Anschluss
+(4) Ein/Aus-Button
+(5) Spannungsversorgung
 (6) USB-Anschlüsse
 
 ![](/aufbau-scs.png)
