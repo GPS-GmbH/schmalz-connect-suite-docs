@@ -10,27 +10,101 @@ const color = '#0050A0'
 
 const getChildren = (parentPath) => {
     return glob
-      .sync(parentPath + '/*.md')
-      .map(path => {
-        // remove "parentPath" and ".md"
-        // remove README
-        if (path.endsWith('README')) {
-          path = path.slice(0, -6)
-        }
-        return `/${path}`.replace('.md', '').replace('index', '')
-      })
-      .sort()
-  }
+        .sync(parentPath + '/*.md')
+        .map(path => {
+            // remove "parentPath" and ".md"
+            // remove README
+            if (path.endsWith('README')) {
+                path = path.slice(0, -6)
+            }
+            return `/${path}`.replace('.md', '').replace('index', '')
+        })
+        .sort()
+}
 const locales = {
-    '/': {
+    '/en/': {
+        selectText: 'Languages',
         lang: 'English',
         title: 'Schmalz Connect:API',
         description: 'Documentation for controlling devices',
+        nav: [
+            { text: 'Home', link: '/en/' },
+            { text: 'User Guide', link: '/en/user/' },
+            { text: 'Connect:API', link: '/en/developer/' },
+        ],
+        sidebar: {
+            '/en/developer/': [
+                {
+                    collapsable: false,
+                    title: '🚀 Developer Guide',
+                    children: getChildren('en/developer'),
+                },
+                {
+                    collapsable: false,
+                    title: '📦 App Development',
+                    children: getChildren('en/developer/apps'),
+                },
+            ],
+            '/en/user/': [
+                {
+                    collapsable: false,
+                    title: 'User Guide',
+                    children: getChildren('en/user'),
+                },
+                {
+                    collapsable: false,
+                    title: '⚙️️ Settings',
+                    children: getChildren('en/user/settings'),
+                },
+                {
+                    collapsable: false,
+                    title: '🔌 Assets',
+                    children: getChildren('en/user/assets'),
+                },
+            ],
+        },
     },
     '/de/': {
+        selectText: 'Sprachen',
         lang: 'Deutsch',
         title: 'Schmalz Connect:API',
         description: 'Dokumentation zu Sicon APPs, PLUGs und OS',
+        nav: [
+            { text: 'Home', link: '/de/' },
+            { text: 'User Guide', link: '/de/user/' },
+            { text: 'Connect:API', link: '/de/developer/' },
+        ],
+        sidebar: {
+            '/de/developer/': [
+                {
+                    collapsable: false,
+                    title: '🚀 Developer Guide',
+                    children: getChildren('de/developer'),
+                },
+                {
+                    collapsable: false,
+                    title: '📦 App Development',
+                    children: getChildren('de/developer/apps'),
+                },
+            ],
+            '/de/user/': [
+                {
+                    collapsable: false,
+                    title: 'User Guide',
+                    children: getChildren('de/user'),
+                },
+                {
+                    collapsable: false,
+                    title: '⚙️️ Settings',
+                    children: getChildren('de/user/settings'),
+                },
+                {
+                    collapsable: false,
+                    title: '🔌 Assets',
+                    children: getChildren('de/user/assets'),
+                },
+            ],
+        },
     },
 }
 // const sidebar = require('./sidebar')(path.relative(__dirname, '../'), locales)
@@ -67,60 +141,8 @@ const config = async () => ({
     },
     locales,
     themeConfig: {
+        locales,
         sidebarDepth: 4,
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'User Guide', link: '/user/' },
-            { text: 'Connect:API', link: '/developer/' },
-        ],
-        sidebar: {
-            '/developer/': [
-                {
-                    collapsable: false,
-                    title: '🚀 Developer Guide',
-                    children: getChildren('developer'),
-                },
-                {
-                    collapsable: false,
-                    title: '📦 App Development',
-                    children: getChildren('developer/apps'),
-                },
-            ],
-            '/user/': [
-                {
-                    collapsable: false,
-                    title: 'User Guide',
-                    children: getChildren('user'),
-                },
-                {
-                    collapsable: false,
-                    title: '⚙️️ Settings',
-                    children: getChildren('user/settings'),
-                },
-                {
-                    collapsable: false,
-                    title: '🔌 Assets',
-                    children: getChildren('user/assets'),
-                },
-            ],
-        },
-        // {
-        //     '/developer/': [
-        //         ['/developer/', 'Overview'],
-        //         '/developer/create-app',
-        //         '/developer/publish-app',
-        //         '/developer/deploy-app',
-        //         '/developer/restapi',
-        //     ],
-        //     '/user/': [
-        //         ['/user/', 'Overview'],
-        //         '/user/config',
-        //         '/user/setup',
-        //     ]
-        // }
-        // sidebar: await getSidebar({
-        //     target: `${__dirname}/../`
-        // })
     },
 })
 

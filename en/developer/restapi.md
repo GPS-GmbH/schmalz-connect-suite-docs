@@ -5,7 +5,7 @@ sidebar: false
 
 <RestAPI />
 <script>
-import RestAPI from '../.vuepress/theme/components/RestAPI.vue'
+import RestAPI from '../../.vuepress/theme/components/RestAPI.vue'
 export default {
     components: { RestAPI }
 }

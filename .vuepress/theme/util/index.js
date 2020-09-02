@@ -128,8 +128,9 @@ export function resolveSidebarItems (page, regularPath, site, localePath) {
     ? themeConfig.locales[localePath] || themeConfig
     : themeConfig
 
-  const pageSidebarConfig = page.frontmatter.sidebar || localeConfig.sidebar || themeConfig.sidebar
-  if (pageSidebarConfig === 'auto') {
+
+    const pageSidebarConfig = page.frontmatter.sidebar || localeConfig.sidebar || themeConfig.sidebar
+    if (pageSidebarConfig === 'auto') {
     return resolveHeaders(page)
   }
 
@@ -198,6 +199,7 @@ export function resolveMatchingConfig (regularPath, config) {
     }
   }
   for (const base in config) {
+      console.log(regularPath, base)
     if (ensureEndingSlash(regularPath).indexOf(encodeURI(base)) === 0) {
       return {
         base,
