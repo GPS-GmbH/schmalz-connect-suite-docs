@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: Schmalz Connect Suite
+heroText: Schmalz Connect Suite Documentation
 heroBackground: "/home.jpg"
 tagline: Bring your own device, just plug
 actionText: Get Started →
@@ -11,7 +11,7 @@ features:
     visualize the data
   link: "/user/"
   linkText: More information
-- title: Developer Guide
+- title: API Documentation
   details: Access data of your industrial devices via Rest HTTP or MQTT/WebSocket
     APIs and build applications
   link: "/developer/"
