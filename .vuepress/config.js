@@ -114,7 +114,7 @@ const config = async () => ({
     title,
     head: [
         ['link', { rel: 'icon', href: `/assets/favicon.ico` }],
-        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap' }],
+        // ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap' }],
         ['meta', { name: 'theme-color', content: color }],
         ['meta', { prefix: ogprefix, property: 'og:title', content: title }],
         ['meta', { prefix: ogprefix, property: 'twitter:title', content: title }],
