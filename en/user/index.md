@@ -1,7 +1,8 @@
 ---
 
 ---
-# Benutzerhandbuch
+#User Guide
+
 
 ## Type Plate
 
@@ -29,7 +30,7 @@ It includes the following information:
 
 ![](/aufbau-scs.png)
 
-# Commissioning 
+# Commissioning
 
 The connection to the Schmalz Connect Suite can be established in two ways.
 
@@ -84,19 +85,19 @@ The factory default IP address is 192.168.77.220.
 
 ![](/bild1-1.png)
 
-1.) Click the “Devices” symbol to display the Devices page.
-2.) Create or register the devices via the “PreRegistered Devices” button
-3.) or via the “New Device from Catalog” button.
+1\.) Click the “Devices” symbol to display the Devices page.
+2\.) Create or register the devices via the “PreRegistered Devices” button
+3\.) or via the “New Device from Catalog” button.
 
 The following window appears when the PreRegistered Devices button is selected.
 
 ![](/bild2-1.png)
 
-4.) A network scan of the entire OT machine network is started by clicking the “Search New Devices” button.
+4\.) A network scan of the entire OT machine network is started by clicking the “Search New Devices” button.
 
 ![](/bild3-1.png)
 
-5.) Register all discovered devices together or individually on the SCS.
+5\.) Register all discovered devices together or individually on the SCS.
 
 The following window appears when the New Device from Catalog button is selected
 
@@ -106,9 +107,9 @@ Select the desired Device from the displayed selection catalog.
 
 ![](/bild7.png)
 
-1.) Enter the IP address of the device directly on the page.
-2.) You can still enter device-specific specifications, such as system/location ID and equipment ID, before the device is registered.
-3.) Start the registration process.
+1\.) Enter the IP address of the device directly on the page.
+2\.) You can still enter device-specific specifications, such as system/location ID and equipment ID, before the device is registered.
+3\.) Start the registration process.
 
 Regardless of the selected type of input (catalog or scan), the final result is the same. The following figure shows the display after the registration process. All devices including the parameters are shown.
 
