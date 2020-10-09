@@ -1,7 +1,7 @@
 ---
 
 ---
-#User Guide
+# User Guide
 
 
 ## Type Plate
