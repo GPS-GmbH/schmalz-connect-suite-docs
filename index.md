@@ -1,7 +1,7 @@
 ---
 meta:
 - http-equiv: refresh
-  content: 0,url=/de
+  content: 0,url=./de
 home: false
 heroText: ''
 heroBackground: ''
