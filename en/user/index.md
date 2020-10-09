@@ -29,7 +29,7 @@ It includes the following information:
 
 ![](/aufbau-scs.png)
 
-# Network Connection
+# Commissioning 
 
 The connection to the Schmalz Connect Suite can be established in two ways.
 
@@ -39,91 +39,83 @@ The connection to the Schmalz Connect Suite can be established in two ways.
 
 ![](/Bild2.png)
 
-Sollten Sie keinen DHCP Server im Netzwerk haben fahren Sie bitte mit der Beschreibung „IBN über den OT  Netzwerkanschluss“ fort
+Establish the network connection shown above.
 
-Stellen sie sicher, dass sie den oben beschriebenen Netzwerkaufbau hergestellt haben.
+Switch on the Schmalz Connect Suite via the on/off button.
 
-Stellen Sie die die Netzwerkkonfiguration ihres PCs auf DHCP (Netzwerkkonfiguration automatisch beziehen, siehe Screenshot)
+Make sure that your end device has been assigned an IP address by the DHCP server.
+
+This requires that you obtain your network configuration automatically.
+End device network configuration
 
 ![](/Bild3.png)
 
-Die SCS ist unter folgender Hostname-Adresse zu erreichen:
+Connect to the SCS by entering the host name or IP address in your web browser.
 
-http://scs-xxxx.local/
+The host name can be found on the SCS type plate.
 
-Der Hostname ist auf dem Typenschild aufgedruckt.
+The IP address can be provided by your IT network administrator.
 
-Geben Sie hierfür die entsprechende Zeile in ihren Webbrowser ein.
-
-### Verbindung zur SCS herstellen – IP Adresse
-
-Sie können eine Verbindung zur SCS über die vom DHCP Server zugewiesene IP Adresse herstellen.
-
-Die IP Adresse ist unter den Netzwerkteilnehmern des DHCP Servers aufgelistet.
-
-Optional kann die IP Adresse auch vom Netzwerkadministrator bereitgestellt werden.
-
-Um die Verbindung zur SCS herzustellen geben Sie die vom DHCP Server generierte IP Adresse in ihren Webbrowser sein.
-
-## Inbetriebnahme über den OT Netzwerkanschluss der SCS
-
-### Netzwerkaufbau
+## Connection to the SCS via the OT Side
 
 ![](/Bild4.png)
 
-Stellen sie sicher, dass sie den oben beschriebenen Netzwerkaufbau hergestellt haben.
+Establish the network connection shown above.
 
-Stellen Sie die die Netzwerkkonfiguration ihres PCs eine feste Ip Adresse. Die IP Adresse muss im Bereich 192.168.0.X(alles außer 10) sein.
+Switch on the Schmalz Connect Suite via the on/off button.
 
-Die IP Adresse der SCS ist auf der OT Seite fest auf 192.168.0.10 eingestellt.
+Assign an IP address to your end device in the address range 192.168.77.xxx.
+
+This requires you to manually configure your network configuration.
+
+The SCS IP address on the OT port is set to 192.168.77.220 by default.
+
+End device network configuration
 
 ![](/Bild5.png)
 
-### Verbindung zur SCS herstellen – IP Adresse
+Connect to the SCS by entering the host name or IP address in your web browser.
 
-Sie können eine Verbindung zur SCS über die IP Adresse herstellen.
+The host name can be found on the SCS type plate.
 
-Die IP Adresse ist 192.168.0.10
+The factory default IP address is 192.168.77.220.
 
-Um die Verbindung zur SCS herzustellen geben Sie die IP Adresse in ihren Webbrowser sein.
-
-## Einrichten des Maschinennetzwerks und Konfiguration
+## Setting Up the Machine Network and Configuration
 
 ![](/bild1-1.png)
 
-1\.) Durch anklicken des Symbols "Devices" wird die Devices Seite angezeigt.
-2\.) Geräte über den "PreRegistered Devices " button,
-3\.) oder über den "New Device from Catalog " button
-anlegen bzw. registrieren.
+1.) Click the “Devices” symbol to display the Devices page.
+2.) Create or register the devices via the “PreRegistered Devices” button
+3.) or via the “New Device from Catalog” button.
 
-Bei Auswahl des PreRegistered Devices button erscheint folgendes Fenster.
+The following window appears when the PreRegistered Devices button is selected.
 
 ![](/bild2-1.png)
 
-4\.) Durch klicken auf den Button "Search New Devices" startet ein Netzwerkscan über das gesamte OT Maschinennetzwerk.
+4.) A network scan of the entire OT machine network is started by clicking the “Search New Devices” button.
 
 ![](/bild3-1.png)
 
-5\.) Alle gefundenen Geräte gesamt oder einzeln auf der SCS registrieren.
+5.) Register all discovered devices together or individually on the SCS.
 
-Bei Auswahl des New Device from Catalog button erscheint folgendes Fenster
+The following window appears when the New Device from Catalog button is selected
 
 ![](/bild6.png)
 
-Aus dem angezeigten Auswahlkatalog das gewünschte Device auswählen.
+Select the desired Device from the displayed selection catalog.
 
 ![](/bild7.png)
 
-1\.) Geräte IP Adresse direkt eingeben.
-2\.) Bevor das Gerät registriert wird können noch gerätespezifische Angaben gemacht werden. z.B. Anlagen/Ortskennzeichen & BMK.
-3\.) Registrierungsprozesses starten.
+1.) Enter the IP address of the device directly on the page.
+2.) You can still enter device-specific specifications, such as system/location ID and equipment ID, before the device is registered.
+3.) Start the registration process.
 
-Unabhängig von der gewählten Art der Eingabe (Katalog oder Scan) ist das Endergebnis das selbe. Die nachfolgende Abbildung zeigt die Anzeige nach dem Registrierungsprozess. Es werden alle Geräte inkl. der Parameter gezeigt.
+Regardless of the selected type of input (catalog or scan), the final result is the same. The following figure shows the display after the registration process. All devices including the parameters are shown.
 
 ![](/bild4-1.png)
 
-## Funktionsbeschreibung Monitor
+## Description of Functions – Monitor
 
-Die Vergabe von Anlagen Orts Kennzeichnung & Betriebsmittelkennzeichnung (AOK&BMK) werden über den Bereich "Monitor" angezeigt.
+The system/location ID and equipment ID assignments are displayed in the “Monitor” area.
 
 ![](/bild5-1.png)
