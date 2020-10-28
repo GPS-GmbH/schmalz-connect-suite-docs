@@ -1,3 +1,6 @@
+---
+
+---
 # Benutzerhandbuch
 
 ## Typenschild
@@ -38,31 +41,21 @@ Die Verbindung zur SCS kann über zwei Varianten hergestellt werden:
 
 ![](/Bild2.png)
 
-Sollten Sie keinen DHCP Server im Netzwerk haben fahren Sie bitte mit der Beschreibung „IBN über den OT  Netzwerkanschluss“ fort
+1\. Stellen sie den oben dargestellten Netzwerkaufbau her.
 
-Stellen sie sicher, dass sie den oben beschriebenen Netzwerkaufbau hergestellt haben.
+2\. Schalten Sie die Schmalz Connect Suite über den Ein/Aus Knopf an.
 
-Stellen Sie die die Netzwerkkonfiguration ihres PCs auf DHCP (Netzwerkkonfiguration automatisch beziehen, siehe Screenshot)
+3\. Stellen Sie sicher, dass ihrem Endgerät vom DHCP Server eine IP-Adresse zugewiesen wurde.
+
+a) Hierfür ist es erforderlich, dass Sie ihre Netzwerkkonfiguration automatisch beziehen.
 
 ![](/Bild3.png)
 
-Die SCS ist unter folgender Hostname-Adresse zu erreichen:
+4\. Verbindung zur SCS durch Eingabe des Hostnames oder der IP Adresse im Webbrowser herstellen.
 
-http://scs-xxxx.local/
+a) Der Hostname befindet sich auf dem Typenschild der SCS.
 
-Der Hostname ist auf dem Typenschild aufgedruckt.
-
-Geben Sie hierfür die entsprechende Zeile in ihren Webbrowser ein.
-
-### Verbindung zur SCS herstellen – IP Adresse
-
-Sie können eine Verbindung zur SCS über die vom DHCP Server zugewiesene IP Adresse herstellen.
-
-Die IP Adresse ist unter den Netzwerkteilnehmern des DHCP Servers aufgelistet.
-
-Optional kann die IP Adresse auch vom Netzwerkadministrator bereitgestellt werden.
-
-Um die Verbindung zur SCS herzustellen geben Sie die vom DHCP Server generierte IP Adresse in ihren Webbrowser sein.
+b) Die IP Adresse kann von ihrem IT-Netzwerkadministrator bereitgestellt werden.
 
 ## Inbetriebnahme über den OT Netzwerkanschluss der SCS
 
@@ -70,21 +63,19 @@ Um die Verbindung zur SCS herzustellen geben Sie die vom DHCP Server generierte 
 
 ![](/Bild4.png)
 
-Stellen sie sicher, dass sie den oben beschriebenen Netzwerkaufbau hergestellt haben.
+1\. Stellen sie den oben dargestellten Netzwerkaufbau her.
 
-Stellen Sie die die Netzwerkkonfiguration ihres PCs eine feste Ip Adresse. Die IP Adresse muss im Bereich 192.168.0.X(alles außer 10) sein.
+2\. Schalten Sie die Schmalz Connect Suite über den Ein/Aus Knopf an.
 
-Die IP Adresse der SCS ist auf der OT Seite fest auf 192.168.0.10 eingestellt.
+3\. Weisen Sie ihrem Endgerät eine IP Adresse in dem Adressbereich 192.168.77.xxx zu.
+
+a) Hierfür ist es erforderlich, dass Sie ihre Netzwerkkonfiguration manuell konfigurieren.
+
+b) Die IP Adresse der SCS am OT Port ist defaultmäßig auf 192.168.77.220 eingestellt.
+
+Netzwerkkonfiguration Endgerät
 
 ![](/Bild5.png)
-
-### Verbindung zur SCS herstellen – IP Adresse
-
-Sie können eine Verbindung zur SCS über die IP Adresse herstellen.
-
-Die IP Adresse ist 192.168.0.10
-
-Um die Verbindung zur SCS herzustellen geben Sie die IP Adresse in ihren Webbrowser sein.
 
 ## Einrichten des Maschinennetzwerks und Konfiguration
 
