@@ -3,8 +3,7 @@
 ---
 # User Guide
 
-
-## Type Plate
+## 1. Type Plate
 
 The type plate is permanently attached to the SCS and must always be clearly legible.
 It includes the following information:
@@ -19,7 +18,7 @@ It includes the following information:
 • FCC label
 • Host name
 
-## Product Design
+## 2. Product Design
 
 (1) IT network (FRONT END)
 (2) System management
@@ -30,13 +29,11 @@ It includes the following information:
 
 ![](/aufbau-scs.png)
 
-# Commissioning
+## 3. Commissioning
 
 The connection to the Schmalz Connect Suite can be established in two ways.
 
-## Connection to the SCS via the IT Side
-
-### Network connection
+### 3.1. Connection to the SCS via the IT Side
 
 ![](/Bild2.png)
 
@@ -57,7 +54,7 @@ The host name can be found on the SCS type plate.
 
 The IP address can be provided by your IT network administrator.
 
-## Connection to the SCS via the OT Side
+### 3.2. Connection to the SCS via the OT Side
 
 ![](/Bild4.png)
 
@@ -81,7 +78,7 @@ The host name can be found on the SCS type plate.
 
 The factory default IP address is 192.168.77.220.
 
-## Setting Up the Machine Network and Configuration
+## 4. Setting Up the Machine Network and Configuration
 
 ![](/bild1-1.png)
 
@@ -115,7 +112,7 @@ Regardless of the selected type of input (catalog or scan), the final result is 
 
 ![](/bild4-1.png)
 
-## Description of Functions – Monitor
+## 5. Description of Functions – Monitor
 
 The system/location ID and equipment ID assignments are displayed in the “Monitor” area.
 
