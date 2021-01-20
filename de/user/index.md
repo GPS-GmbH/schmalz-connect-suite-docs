@@ -1,9 +1,7 @@
 ---
 
 ---
-# Benutzerhandbuch
-
-## 1. Typenschild
+# 1. Typenschild
 
 Das Typenschild ist fest mit dem SCS verbunden und muss immer gut lesbar sein.
 Es enthält folgende Daten:
@@ -18,7 +16,7 @@ Es enthält folgende Daten:
 • FCC-Kennzeichnung
 • Hostname
 
-## 2. Aufbau der Schmalz Connect Suite
+# 2. Aufbau der Schmalz Connect Suite
 
 (1) IT-Anschluss
 (2) Systemmanagement
@@ -29,13 +27,13 @@ Es enthält folgende Daten:
 
 ![](/aufbau-scs.png)
 
-## 3. Inbetriebnahme
+# 3. Inbetriebnahme
 
 Die Verbindung zur SCS kann über zwei Varianten hergestellt werden:
 • Variante 1: über den IT Netzwerkanschluss der SCS
 • Variante 2: über den OT Netzwerkanschluss der SCS
 
-### 3.1. Inbetriebnahme über den IT Netzwerkanschluss der SCS
+## 3.1. Inbetriebnahme über den IT Netzwerkanschluss der SCS
 
 ![](/Bild2.png)
 
@@ -73,7 +71,7 @@ Netzwerkkonfiguration Endgerät
 
 ![](/Bild5.png)
 
-## 4. Einrichten des Maschinennetzwerks und Konfiguration
+# 4. Einrichten des Maschinennetzwerks und Konfiguration
 
 ![](/bild1-1.png)
 
@@ -108,7 +106,7 @@ Unabhängig von der gewählten Art der Eingabe (Katalog oder Scan) ist das Ender
 
 ![](/bild4-1.png)
 
-## 5. Funktionsbeschreibung Monitor
+# 5. Funktionsbeschreibung Monitor
 
 Die Vergabe von Anlagen Orts Kennzeichnung & Betriebsmittelkennzeichnung (AOK&BMK) werden über den Bereich "Monitor" angezeigt.
 
