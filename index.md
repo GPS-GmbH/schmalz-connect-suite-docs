@@ -1,7 +1,7 @@
 ---
 meta:
 - http-equiv: refresh
-  content: 0,url=./de/
+  content: 0,url=./de/user/
 home: false
 heroText: ''
 heroBackground: ''
@@ -12,6 +12,6 @@ features: []
 footer: ''
 
 ---
-[de](./de)
+[de](./de/user/)
 
-[en](./en)
+[en](./en/user/)

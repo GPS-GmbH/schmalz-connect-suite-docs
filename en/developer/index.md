@@ -1,23 +1,12 @@
-# Developer Guide
+---
+sidebar: false
+---
+# Rest API Documentation
 
-Overview of the Sicon.OS Platform
-
-## Developing with Sicon
-
-Everything starts with consuming the data from sensors and either visualizing or further processing them.
-With standardized protocols, you have access to the data sicon collects. Including devices, parameters, events and historical data.
-
-### Rest API
-
-With the interactive [Rest API](./restapi.md) documentation, you can quickly create customized visualization or logic.
-
-### MQTT
-
-MQTT serves as event stream to react on sensor data change.
-
-## Developing an App
-
-![](/app-workflow.jpg)
-
-1. [Develop the application](./create-app.md)
-2. [Publish the application](./publish-app.md)
+<RestAPI />
+<script>
+import RestAPI from '../../.vuepress/theme/components/RestAPI.vue'
+export default {
+    components: { RestAPI }
+}
+</script>

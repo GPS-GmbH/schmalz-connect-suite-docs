@@ -28,7 +28,6 @@ const locales = {
         title: 'Schmalz Connect:API',
         description: 'Documentation for controlling devices',
         nav: [
-            { text: 'Home', link: '/en/' },
             { text: 'User Guide', link: '/en/user/' },
             { text: 'Connect:API', link: '/en/developer/' },
         ],
@@ -36,13 +35,8 @@ const locales = {
             '/en/developer/': [
                 {
                     collapsable: false,
-                    title: '🚀 Developer Guide',
+                    title: 'Connect:API',
                     children: getChildren('en/developer'),
-                },
-                {
-                    collapsable: false,
-                    title: '📦 App Development',
-                    children: getChildren('en/developer/apps'),
                 },
             ],
             '/en/user/': [
@@ -50,16 +44,6 @@ const locales = {
                     collapsable: false,
                     title: 'User Guide',
                     children: getChildren('en/user'),
-                },
-                {
-                    collapsable: false,
-                    title: '⚙️️ Settings',
-                    children: getChildren('en/user/settings'),
-                },
-                {
-                    collapsable: false,
-                    title: '🔌 Assets',
-                    children: getChildren('en/user/assets'),
                 },
             ],
         },
@@ -70,38 +54,22 @@ const locales = {
         title: 'Schmalz Connect:API',
         description: 'Dokumentation zu Sicon APPs, PLUGs und OS',
         nav: [
-            { text: 'Home', link: '/de/' },
-            { text: 'User Guide', link: '/de/user/' },
+            { text: 'Benutzerhandbuch', link: '/de/user/' },
             { text: 'Connect:API', link: '/de/developer/' },
         ],
         sidebar: {
             '/de/developer/': [
                 {
                     collapsable: false,
-                    title: '🚀 Developer Guide',
+                    title: 'Connect:API',
                     children: getChildren('de/developer'),
-                },
-                {
-                    collapsable: false,
-                    title: '📦 App Development',
-                    children: getChildren('de/developer/apps'),
                 },
             ],
             '/de/user/': [
                 {
                     collapsable: false,
-                    title: 'User Guide',
+                    title: 'Benutzerhandbuch',
                     children: getChildren('de/user'),
-                },
-                {
-                    collapsable: false,
-                    title: '⚙️️ Settings',
-                    children: getChildren('de/user/settings'),
-                },
-                {
-                    collapsable: false,
-                    title: '🔌 Assets',
-                    children: getChildren('de/user/assets'),
                 },
             ],
         },
